@@ -1658,7 +1658,8 @@ build_svt-vp9() {
 }
 
 build_svt-av1() {
-  do_git_checkout https://gitlab.com/AOMediaCodec/SVT-AV1.git
+  # RISE: there is a bug in master SVT-AV1 thus we fix an older version https://forums.linuxmint.com/viewtopic.php?p=2588105&sid=44306650d096daa6b06a87b221f7a980#p2588105
+  do_git_checkout https://gitlab.com/AOMediaCodec/SVT-AV1.git SVT-AV1_git v2.3.0
   cd SVT-AV1_git
   cd Build
     do_cmake_from_build_dir .. "-DCMAKE_BUILD_TYPE=Release -DCMAKE_SYSTEM_PROCESSOR=AMD64"
