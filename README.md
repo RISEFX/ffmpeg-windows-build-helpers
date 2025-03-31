@@ -1,7 +1,7 @@
 ffmpeg-windows-build-helpers
 ============================
 
-**RISE: This builds the ffmpeg/ffplay used for DayDream. We changed some build parameters to use our own ffmpeg repo and branch with some fixes here on github. Check the commits and the code comments for details on the changes.**
+**RISE: This builds the ffmpeg/ffplay used for DayDream. We changed some build parameters to use our own ffmpeg repo and branch with some fixes here on github (https://github.com/RISEFX/FFmpeg/tree/n7.0.2-risefx). Check the commits in this repo and the ffmpeg repo in the code comments for details on the changes.**
 
 This helper script lets you cross compile a windows-based 32 or 64-bit version of ffmpeg.exe/mplayer/mp4box.exe, etc,  including their dependencies and libraries that they use.
 Note that I do offer custom builds, price negotiable. Ping me at rogerdpack@gmail.com and we can negotiate, I'll do the work for you :) 
